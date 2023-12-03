@@ -1,3 +1,9 @@
+body { 
+    margin: 0;
+    padding: 0;
+    max-width: 425px; 
+    max-height: 1852px;
+}
 :root {
     /* Light Mode: */
     --lm-light-azure: #F5F9F9;
@@ -17,4 +23,26 @@
     --sc-yellow: #ECD456;
     --sc-orange: #EA9D42;
     --sc-red: #DF5739;
+
+    /* Shading: */
+    --shd-header: rgba(105, 127, 134, 0.25);
+}
+
+.app {
+    height: 926px;
+    background-color: var(--lm-light-azure);
+    color: var(--dm-black);
+}
+.header {
+    display: flex;
+    padding: 0 30px;
+    height: 119px;
+    background-color: var(--sc-azure);
+    box-shadow: 0px 5px 25px 5px var(--shd-header);
+}
+.header img {
+    margin-top: 30px;
+}
+.content {
+    margin: 30px;
 }
