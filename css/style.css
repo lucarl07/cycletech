@@ -1,8 +1,9 @@
+/* App properties and variables: */
 body { 
     margin: 0;
     padding: 0;
-    max-width: 425px; 
-    max-height: 1852px;
+    color: var(--dm-black);
+    font-family: 'Inter', sans-serif;
 }
 :root {
     /* Light Mode: */
@@ -30,10 +31,12 @@ body {
 
 .app {
     height: 926px;
+    max-width: 425px; 
+    max-height: 1852px;
     background-color: var(--lm-light-azure);
-    color: var(--dm-black);
 }
 
+/* Header: */
 .header {
     display: flex;
     padding: 0 30px;
@@ -54,4 +57,45 @@ body {
 
 .content {
     margin: 30px;
+}
+.page-title {
+    font-size: 25px;
+}
+.paragraph {
+    font-size: 20px;
+}
+.media {
+    width: 345px;
+    height: 260px;
+}
+
+.alert {
+    text-align: center;
+}
+.alert .title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.alert .enhance {
+    color: var(--sc-red);
+}
+.alert .paragraph {
+    margin: 0 auto 16px;
+    max-width: 345px;
+    font-size: 16px;
+}
+.alert .button {
+    width: 164px;
+    height: 42px;
+    border-radius: 9px;
+    border: none;
+    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Font weights: */
+.semibold {
+    font-weight: 600;
 }

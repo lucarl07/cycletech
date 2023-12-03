@@ -5,6 +5,11 @@
     <meta name="viewprt" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
+
+    <!-- Typography (Inter 100-900) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="app">
@@ -14,7 +19,27 @@
         </header>
 
         <section class="content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab commodi velit ullam sed tenetur, veniam, debitis voluptate omnis enim, accusamus ea incidunt praesentium! Cumque beatae deserunt veniam sit expedita?
+            <h2 class="page-title" id="homepageTitle">
+                PÁGINA INICIAL
+            </h2>
+            
+            <p class="paragraph">
+                <span class="semibold">Bem-vindo,</span> usuário!
+            </p>
+
+            <iframe class="media" src="./images/map-placeholder.png" frameborder="0"></iframe>
+            
+            <div class="alert">
+                <h2 class="title">
+                    QUER JOGAR <span class="enhance">"LIXO"</span>?
+                </h2>
+                <p class="paragraph">
+                    Saiba que o que é lixo para você pode ser matéria-prima para outros. Não esqueça de ler o QR code para resgatar seus pontos!
+                </p>
+                <button class="button">
+                    Ler código QR
+                </button>
+            </div>
         </section>
     </main>
     <script src="./js/app.js"></script>
