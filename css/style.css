@@ -33,9 +33,11 @@ body {
     background-color: var(--lm-light-azure);
     color: var(--dm-black);
 }
+
 .header {
     display: flex;
     padding: 0 30px;
+    justify-content: space-between;
     height: 119px;
     background-color: var(--sc-azure);
     box-shadow: 0px 5px 25px 5px var(--shd-header);
@@ -43,6 +45,13 @@ body {
 .header img {
     margin-top: 30px;
 }
+#imgCtLogo {
+    height: 64px;
+}
+#imgUserIcon {
+    height: 75px;
+}
+
 .content {
     margin: 30px;
 }
