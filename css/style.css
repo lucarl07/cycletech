@@ -1,0 +1,20 @@
+:root {
+    /* Light Mode: */
+    --lm-light-azure: #F5F9F9;
+    --lm-cyan: #95D2BC;
+    --lm-light-green: #BBCC8F;
+
+    /* Dark Mode: */
+    --dm-black: #3D4243;
+    --dm-dark-cyan: #6B8087;
+    --dm-green: #869D6A;
+
+    /* Secondary Colors: */
+    --sc-blue: #456A92;
+    --sc-azure: #EAF2F3;
+    --sc-beige: #E9E9E3;
+    --sc-gray: #A7A79A;
+    --sc-yellow: #ECD456;
+    --sc-orange: #EA9D42;
+    --sc-red: #DF5739;
+}
