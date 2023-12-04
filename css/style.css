@@ -45,8 +45,11 @@ body {
     background-color: var(--sc-azure);
     box-shadow: 0px 5px 25px 5px var(--shd-header);
 }
-.header img {
+.header button {
     margin-top: 30px;
+    height: 64px;
+    background: none;
+    border: none;
 }
 #imgCtLogo {
     height: 64px;
@@ -55,6 +58,7 @@ body {
     height: 75px;
 }
 
+/* Main content: */
 .content {
     margin: 30px;
 }
@@ -69,6 +73,17 @@ body {
     height: 260px;
 }
 
+/* Dark filter (for when the focus is on something else): */
+.filter {
+    display: none;
+    position: absolute;
+    width: 425px;
+    height: 926px;
+    background-color: rgba(61, 65, 66, 0.1);
+    transition: 0.25s linear;
+}
+
+/* Hero (alert): */ 
 .alert {
     text-align: center;
 }
@@ -93,6 +108,14 @@ body {
     color: white;
     font-weight: 500;
     font-size: 18px;
+}
+.alert .button:hover {
+    cursor: pointer;
+}
+.alert .button:active {
+    text-decoration: underline;
+    background: var(--dm-green);
+    box-shadow: inset 0px 0px 2px var(--dm-black);
 }
 
 /* Font weights: */
