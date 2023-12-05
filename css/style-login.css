@@ -1,0 +1,175 @@
+/* App properties and variables: */
+body { 
+    margin: 0;
+    padding: 0;
+    color: var(--dm-black);
+    font-family: 'Inter', sans-serif;
+}
+:root {
+    /* Light Mode: */
+    --lm-light-azure: #F5F9F9;
+    --lm-cyan: #95D2BC;
+    --lm-light-green: #BBCC8F;
+
+    /* Dark Mode: */
+    --dm-black: #3D4243;
+    --dm-dark-cyan: #6B8087;
+    --dm-green: #869D6A;
+
+    /* Secondary Colors: */
+    --sc-blue: #456A92;
+    --sc-azure: #EAF2F3;
+    --sc-beige: #E9E9E3;
+    --sc-gray: #A7A79A;
+    --sc-yellow: #ECD456;
+    --sc-orange: #EA9D42;
+    --sc-red: #DF5739;
+
+    /* Shading: */
+    --shd-header: rgba(105, 127, 134, 0.25);
+    --shd-navbar: rgba(80, 97, 102, 0.35);
+}
+
+/* Navigation bar: */ 
+.sidebar {
+    position: absolute;
+    width: 270px;
+    height: 926px;
+    background-color: var(--lm-light-green);
+    box-shadow: 0px 5px 25px 5px var(--shd-navbar);
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 220px;
+}
+.navigation a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/** CORRECT THE FOLLOWING FUNCTIONALITY: **/
+/* Dark filter (for when the focus is on something else):
+.filter {
+    display: none;
+    position: absolute;
+    width: 425px;
+    height: 926px;
+    background-color: rgba(61, 65, 66, 0.2);
+    transition: 0.25s linear;
+} */
+
+.main {
+    height: 926px;
+    max-width: 425px; 
+    max-height: 1852px;
+    background-color: var(--lm-light-azure);
+}
+
+/* Header: */
+.header {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    height: 119px;
+    background-color: var(--sc-azure);
+    box-shadow: 0px 5px 25px 5px var(--shd-header);
+}
+.header button {
+    margin-top: 30px;
+    height: 64px;
+    background: none;
+    border: none;
+}
+#imgCtLogo {
+    height: 64px;
+}
+#imgUserIcon {
+    height: 75px;
+}
+
+/* Main content: */
+.content {
+    margin: 30px;
+}
+.page-title {
+    font-size: 25px;
+}
+.paragraph {
+    font-size: 20px;
+}
+.media {
+    width: 345px;
+    height: 260px;
+}
+
+/* Hero (alert): */ 
+.alert {
+    text-align: center;
+}
+.alert .title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.alert .enhance {
+    color: var(--sc-red);
+}
+.alert .paragraph {
+    margin: 0 auto 16px;
+    max-width: 345px;
+    font-size: 16px;
+}
+.alert .button {
+    width: 164px;
+    height: 42px;
+    border-radius: 9px;
+    border: none;
+    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.alert .button:hover {
+    cursor: pointer;
+}
+.alert .button:active {
+    text-decoration: underline;
+    background: var(--dm-green);
+    box-shadow: inset 0px 0px 2px var(--dm-black);
+}
+
+/* Font weights: */
+.semibold {
+    font-weight: 600;
+}
+
+.login{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputLog{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.uncorrect{
+    font-size: 10pt;
+    color: var(--sc-red);
+    font-weight: bold;
+}
+
+.login-Send{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
