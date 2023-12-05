@@ -4,11 +4,15 @@ darkFilter = document.querySelector('#divDarkFilter'),
 mainContent = document.querySelector('.main');
 
 // Botões:
-const btnToggle = document.querySelector('#btnToggleSidebar');
+const btnOpenSidebar = document.querySelector('#btnOpenSidebar'),
+btnCloseSidebar = document.querySelector('#btnCloseSidebar');
 
 // Ao clicar #btnToggleSidebar.toggle:
-btnToggle.addEventListener('click', function() {
+btnOpenSidebar.addEventListener('click', function() {
     sidebar.style.display = 'initial'
     darkFilter.style.display = 'initial'
-    mainContent.style.position = 'fixed';
+})
+btnCloseSidebar.addEventListener('click', function() {
+    sidebar.style.display = 'none'
+    darkFilter.style.display = 'none'
 })
