@@ -95,7 +95,7 @@ body {
     transition: 0.25s linear;
 } 
 
-/* Main app area: */
+/* Main content: */
 .main {
     z-index: 1;
     height: 926px;
@@ -126,11 +126,12 @@ body {
     height: 75px;
 }
 
-/* Content (hero): */
-.content {
+/* Page hero: */
+.hero {
     margin: 30px;
 }
-.page-title {
+.hero .title {
+    color: var(--lm-light-green);
     font-size: 25px;
 }
 .paragraph {
@@ -144,6 +145,7 @@ body {
     text-align: center;
 }
 .alert .title {
+    color: var(--dm-black);
     margin-top: 24px;
     margin-bottom: 12px;
 }
@@ -169,7 +171,6 @@ body {
     cursor: pointer;
 }
 .alert .button:active {
-    text-decoration: underline;
     background: var(--dm-green);
     box-shadow: inset 0px 0px 2px var(--dm-black);
 }
