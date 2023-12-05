@@ -1,6 +1,6 @@
 // Componentes da página:
 const sidebar = document.querySelector('.sidebar'),
-darkFilter = document.querySelector('#divDarkFilter'),
+darkFilter = document.querySelector('#divDarkFilter1'),
 mainContent = document.querySelector('.main');
 
 // Botões:
