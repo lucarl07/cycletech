@@ -13,6 +13,7 @@ Algumas pessoas podem pensar que se refere à simplesmente deixar os dejetos no 
 
 ### E se o usuário omitir/errar o tipo e/ou quantidade do resíduo?
 No futuro, com a base da aplicação já estabelecida, é do nosso interesse inserir um sistema de chat entre o transportador e o solicitante durante uma solicitação. Na situação do título, é responsabilidade do último e somente do último relatar, por este meio, quaisquer incoerências na descrição do resíduo com seu estado real.
+
 Entretanto, ao inserir informações com erros crassos  e não realizar nenhum tipo de comunicação com o transportador, o usuário está sujeito a uma **taxa adicional no transporte** e um alerta ao acessar novamente o app. Além disso, falhas que podem interferir no transporte dos demais resíduos podem acarretar em advertências no aplicativo, avisando-o do risco de perder sua conta, ou até a suspensão imediata da mesma.
 
 ## Demanda da indústria
