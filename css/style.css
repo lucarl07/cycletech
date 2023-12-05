@@ -183,7 +183,7 @@ body {
 /* (QR code) pop-up card: */ 
 .pop-up {
     z-index: 3;
-    display: flex;
+    display: none;
     flex-direction: column;
     position: relative;
     margin: -475px auto;
@@ -217,10 +217,10 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-#btnDownloadQrCode {
+#btnChooseFile {
     background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
 }
-#btnExitPopup {
+#btnExitCamera {
     background-image: linear-gradient(180deg, var(--sc-red), #b65039);
 }
 
