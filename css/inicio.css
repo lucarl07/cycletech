@@ -24,6 +24,7 @@ body {
     --sc-yellow: #ECD456;
     --sc-orange: #EA9D42;
     --sc-red: #DF5739;
+    --sc-copper: #b65039;
 
     /* Shading: */
     --shd-header: rgba(105, 127, 134, 0.25);
@@ -108,6 +109,12 @@ body {
     max-height: 1852px;
     background-color: var(--lm-light-azure);
 }
+.button:hover {
+    cursor: pointer;
+}
+.button:active {
+    box-shadow: inset 0px 0px 4px var(--dm-black);
+}
 
 /* Header: */
 .main .header {
@@ -172,9 +179,6 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
-.alert .button:hover {
-    cursor: pointer;
-}
 .alert .button:active {
     background: var(--dm-green);
     box-shadow: inset 0px 0px 2px var(--dm-black);
@@ -220,8 +224,15 @@ body {
 #btnChooseFile {
     background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
 }
+#btnChooseFile:active {
+    background: var(--dm-dark-cyan);
+}
+
 #btnExitCamera {
-    background-image: linear-gradient(180deg, var(--sc-red), #b65039);
+    background-image: linear-gradient(180deg, var(--sc-red), var(--sc-copper));
+}
+#btnExitCamera:active {
+    background: var(--sc-copper);
 }
 
 /* Font weights: */
