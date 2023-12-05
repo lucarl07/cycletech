@@ -27,9 +27,44 @@ body {
 
     /* Shading: */
     --shd-header: rgba(105, 127, 134, 0.25);
+    --shd-navbar: rgba(80, 97, 102, 0.35);
 }
 
-.app {
+/* Navigation bar: */ 
+.sidebar {
+    position: absolute;
+    width: 270px;
+    height: 926px;
+    background-color: var(--lm-light-green);
+    box-shadow: 0px 5px 25px 5px var(--shd-navbar);
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: 220px;
+}
+.navigation a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/** CORRECT THE FOLLOWING FUNCTIONALITY: **/
+/* Dark filter (for when the focus is on something else):
+.filter {
+    display: none;
+    position: absolute;
+    width: 425px;
+    height: 926px;
+    background-color: rgba(61, 65, 66, 0.2);
+    transition: 0.25s linear;
+} */
+
+.main {
     height: 926px;
     max-width: 425px; 
     max-height: 1852px;
@@ -71,16 +106,6 @@ body {
 .media {
     width: 345px;
     height: 260px;
-}
-
-/* Dark filter (for when the focus is on something else): */
-.filter {
-    display: none;
-    position: absolute;
-    width: 425px;
-    height: 926px;
-    background-color: rgba(61, 65, 66, 0.1);
-    transition: 0.25s linear;
 }
 
 /* Hero (alert): */ 
