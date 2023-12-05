@@ -32,7 +32,7 @@ body {
 
 /* Navigation bar: */ 
 .sidebar {
-    z-index: 3;
+    z-index: 4;
     display: none;
     position: absolute;
     width: 270px;
@@ -86,7 +86,7 @@ body {
 /** CORRECT THE FOLLOWING FUNCTIONALITY: **/
 /* Dark filter (for when the focus is on something else): */
 .filter {
-    z-index: 2;
+    z-index: 3;
     display: none;
     position: absolute;
     width: 425px;
@@ -95,7 +95,7 @@ body {
     transition: 0.25s linear;
 } 
 
-/* Main app area: */
+/* Main content: */
 .main {
     z-index: 1;
     height: 926px;
@@ -126,11 +126,12 @@ body {
     height: 75px;
 }
 
-/* Content (hero): */
-.content {
+/* Page hero: */
+.hero {
     margin: 30px;
 }
-.page-title {
+.hero .title {
+    color: var(--lm-light-green);
     font-size: 25px;
 }
 .paragraph {
@@ -144,6 +145,7 @@ body {
     text-align: center;
 }
 .alert .title {
+    color: var(--dm-black);
     margin-top: 24px;
     margin-bottom: 12px;
 }
@@ -169,9 +171,53 @@ body {
     cursor: pointer;
 }
 .alert .button:active {
-    text-decoration: underline;
     background: var(--dm-green);
     box-shadow: inset 0px 0px 2px var(--dm-black);
+}
+
+/* (QR code) pop-up card: */ 
+.pop-up {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: -475px auto;
+    padding: 20px;
+    width: 245px;
+    height: 365px;
+    background-color: var(--lm-light-azure);
+    box-shadow: 0px 5px 25px 5px var(--shd-navbar);
+    border-radius: 28px;
+}
+.pop-up img {
+    width: 245px;
+    height: 245px;
+    border: 1px solid var(--sc-azure);
+    border-radius: 25px;
+}
+.pop-up .text {
+    text-align: center;
+}
+.pop-up .flex-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pop-up .button {
+    width: 115px;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+#btnDownloadQrCode {
+    background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
+}
+#btnExitPopup {
+    background-image: linear-gradient(180deg, var(--sc-red), #b65039);
 }
 
 /* Font weights: */
