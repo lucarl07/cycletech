@@ -115,6 +115,9 @@ body {
 .button:active {
     box-shadow: inset 0px 0px 4px var(--dm-black);
 }
+.section-line {
+    margin: 20px 0;
+}
 
 /* Header: */
 .main .header {
@@ -187,36 +190,9 @@ body {
     margin-left: 15px;
     color: var(--sc-gray);
 }
-/* .paragraph {
-    font-size: 20px;
-}
-.media {
-    width: 345px;
-    height: 260px;
-}
-.alert {
-    text-align: center;
-}
-.alert .title {
-    color: var(--dm-black);
-    margin-top: 24px;
-    margin-bottom: 12px;
-}
-.alert .enhance {
-    color: var(--sc-red);
-}
-.alert .paragraph {
-    margin: 0 auto 16px;
-    max-width: 345px;
-    font-size: 16px;
-}
-.alert .button:active {
-    background: var(--dm-green);
-    box-shadow: inset 0px 0px 2px var(--dm-black);
-} */
 
 /* (QR code) pop-up card: */ 
-.pop-up {
+/* .pop-up {
     z-index: 3;
     display: none;
     flex-direction: column;
@@ -264,7 +240,7 @@ body {
 }
 #btnExitCamera:active {
     background: var(--sc-copper);
-}
+} */
 
 /* Font weights: */
 .semibold {
