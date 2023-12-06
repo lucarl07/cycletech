@@ -8,7 +8,7 @@ body {
 :root {
     /* Light Mode: */
     --lm-light-azure: #F5F9F9;
-    --lm-cyan: #95D2BC;
+    --lm-cyan: #99d4be;
     --lm-light-green: #BBCC8F;
 
     /* Dark Mode: */
@@ -146,11 +146,48 @@ body {
     margin: 30px;
 }
 .hero .title {
+    margin-bottom: 20px;
     color: var(--lm-light-green);
     text-transform: uppercase;
     font-size: 25px;
 }
-.paragraph {
+.article {
+    display: flex;
+    flex-direction: column;
+}
+.article .title {
+    margin: 0px 0 5px;
+    color: var(--lm-cyan);
+    text-transform: none;
+}
+.article .subtitle {
+    margin: 0px 0 5px;
+    font-weight: 500;
+}
+.article .image {
+    margin: 10px 0 15px;
+}
+.article .button {
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    border: none;
+    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.article .flex-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article .flex-items .text {
+    margin: auto;
+    margin-left: 15px;
+    color: var(--sc-gray);
+}
+/* .paragraph {
     font-size: 20px;
 }
 .media {
@@ -173,20 +210,10 @@ body {
     max-width: 345px;
     font-size: 16px;
 }
-.alert .button {
-    width: 164px;
-    height: 42px;
-    border-radius: 9px;
-    border: none;
-    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-}
 .alert .button:active {
     background: var(--dm-green);
     box-shadow: inset 0px 0px 2px var(--dm-black);
-}
+} */
 
 /* (QR code) pop-up card: */ 
 .pop-up {
