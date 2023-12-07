@@ -1,9 +1,11 @@
 /* App properties and variables: */
+html {
+    max-width: 425px;
+    max-height: 971px;
+}
 body { 
     margin: 0;
     padding: 0;
-    max-width: 425px;
-    max-height: 971px;
     color: var(--lm-light-azure);
     font-family: 'Inter', sans-serif;
 }
