@@ -29,17 +29,17 @@
 }
 
 body { 
-    margin: 0;
+    background-color: var(--dm-black);
+    margin: 0px;
     padding: 0;
     color: var(--dm-black);
     font-family: 'Inter', sans-serif;
 }
 
 .container {
-    height: 868px;
+    height: 100%;
     max-width: 768px; 
     max-height: 1852px;
-    background-color: var(--dm-black);
     color: #ffffff;
 }
 
@@ -51,6 +51,13 @@ body {
     font-family: iceland;
     font-size: 22pt;
     max-width: 768px;
+}
+
+.footer{
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    font-size: 10pt;
 }
 
 .main{
