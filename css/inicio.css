@@ -1,7 +1,7 @@
 /* App properties and variables: */
 html {
-    max-width: 425px;
-    max-height: 971px;
+    max-width: 810px;
+    max-height: 1080px;
 }
 body { 
     margin: 0;
@@ -40,16 +40,16 @@ body {
     z-index: 5;
     display: none;
     position: absolute;
-    width: 270px;
-    height: 926px;
+    width: 65vw;
+    height: 100vh;
     background-color: var(--lm-light-green);
     box-shadow: 0px 5px 25px 5px var(--shd-navbar);
 }
 .sidebar .header {
-    padding: 27px 15px;
+    padding: 20px 15px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: start;
+    justify-content: center;
 }
 .sidebar .header h1 {
     margin-left: 8px;
@@ -91,9 +91,9 @@ body {
 /* Dark filter (for when the focus is on something else): */
 .filter {
     position: absolute;
-    width: 425px;
-    height: 926px;
-    background-color: rgba(61, 65, 66, 0.2);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(50, 53, 54, 0.3);
     transition: 0.25s linear;
 }
 #divDarkFilter1 {
@@ -108,8 +108,8 @@ body {
 /* Main content: */
 .main {
     z-index: 1;
-    height: 926px;
-    max-width: 425px; 
+    height: 100vh;
+    max-width: 810px; 
     max-height: 1852px;
     background-color: var(--dm-black);
 }
@@ -147,35 +147,36 @@ body {
 
 /* Page hero: */
 .hero {
-    margin: 30px;
+    margin: 30px 10vw;
 }
 .hero .title {
     color: var(--lm-light-green);
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 .paragraph {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 .media {
-    width: 345px;
-    height: 260px;
+    width: 100%;
+    height: 100%;
 }
 .alert {
     text-align: center;
 }
 .alert .title {
-    color: var(--lm-light-azure);
     margin-top: 24px;
     margin-bottom: 12px;
+    color: var(--lm-light-azure);
+    font-size: 1.5rem;
 }
 .alert .enhance {
     color: var(--sc-orange);
 }
 .alert .paragraph {
     margin: 0 auto 16px;
-    max-width: 345px;
-    font-size: 16px;
+    max-width: 540px;
+    font-size: 1.2rem;
 }
 .alert .button {
     width: 164px;
@@ -198,7 +199,7 @@ body {
     display: none;
     flex-direction: column;
     position: relative;
-    margin: -500px auto;
+    margin: -60vh auto;
     padding: 20px;
     width: 285px;
     height: 425px;
@@ -247,4 +248,22 @@ body {
 /* Font weights: */
 .semibold {
     font-weight: 600;
+}
+
+/* If the display width is 600px or higher: */
+@media only screen and (min-width: 680px) {
+    .sidebar {
+        width: 45vw;
+    }
+    .hero .title {
+        font-size: 2rem;
+    }
+    .alert .paragraph {
+        font-size: 1.4rem;
+    }
+    .alert .button {
+        width: 180px;
+        height: 54px;
+        font-size: 1.2rem;
+    }
 }
