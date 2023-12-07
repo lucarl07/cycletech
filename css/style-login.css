@@ -45,22 +45,23 @@ body {
 /* Header: */
 .header {
     display: flex;
-    padding: 0 30px;
+    padding: 0;
     justify-content: center;
     align-items: center;
     gap: 20px;
     height: 119px;
-    background-color: var(--dm-dark-cyan);
+    background-color: var(--dm-green);
     box-shadow: 0px 5px 25px 5px var(--shd-header);
     max-width: 768px;
+    color: #ffffff;
 }
 
 .login{
     flex-wrap: nowrap;
-    padding-top: 75px;
-    height: 100px;
+    height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }

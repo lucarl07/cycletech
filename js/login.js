@@ -3,11 +3,14 @@ const email = document.getElementById('eMail')
 const regexEmail = /^\S+@\S+\.\S+$/;
 const senha = document.getElementById('senha')
 const regexSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#%¨&*])[0-9a-zA-Z$*&@#%¨&*]{8,}$/;
+const nome = document.getElementById('nome')
 
+const nameUncorrect = document.getElementById('incorrect-name')
 const uncorrect = document.getElementById('incorrect')
 const uncorrectSenha = document.getElementById('incorrectSenha')
 let validarSenha = false
 let validarEmail = false
+let validarNome = false
 
 function validaEmail(email, regexEmail) {
     if(email.value.match(regexEmail)){
@@ -22,6 +25,14 @@ function validaSenha(senha, regexSenha){
         return true;
     }else{
         return false;
+    }
+}
+
+function validaNome(nome){
+    if(nome.value == ''){
+        return false;
+    }else{
+        return true;
     }
 }
 
@@ -44,7 +55,15 @@ subLogin.addEventListener('click', function(){
             validarSenha = true
         }
 
-        if(validarSenha == true && validarEmail == true){
+        if(validaNome(nome) == false){
+            nameUncorrect.innerHTML = 'Invalido. Seu nome não pode estar vazio!'
+        }else{
+            nameUncorrect.innerText = ''
+            console.log('passou do nome')
+            validarNome = true
+        }
+
+        if(validarSenha == true && validarEmail == true && validarNome == true){
             window.location.href = '../pages/inicio.html'
         }
 })
