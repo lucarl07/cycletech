@@ -32,4 +32,4 @@ A EDMS tem domínio em soluções de programação de sistemas e aplicativos, ma
 - Criar um "marketing verde" para a marca EDMS Soluções em Software.
 
 ## Explicando o CycleTech em vídeo:
-[Pitch: O que é o CycleTech](#)
+[Pitch: O que é o CycleTech](https://youtu.be/pDPPNblx3aw)
