@@ -13,7 +13,7 @@ body {
     /* Light Mode: */
     --lm-light-azure: #F5F9F9;
     --lm-cyan: #99d4be;
-    --lm-light-green: #a4b96d;
+    --lm-light-green: #9ead75;
 
     /* Dark Mode: */
     --dm-black: #343838;
@@ -33,6 +33,10 @@ body {
     /* Shading: */
     --shd-header: rgba(105, 127, 134, 0.25);
     --shd-navbar: rgba(80, 97, 102, 0.35);
+}
+@font-face {
+    font-family: Iceland;
+    src: url(../fonts/Iceland-Regular.ttf);
 }
 
 /* Navigation bar: */ 
@@ -54,11 +58,10 @@ body {
 .sidebar .header h1 {
     margin-left: 8px;
     color: white;
-    text-transform: uppercase;
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Iceland', sans-serif;
     font-weight: 900;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 34px;
+    line-height: 12px;
 }
 .sidebar .header button {
     height: 64px;
