@@ -1,0 +1,77 @@
+:root {
+    /* Light Mode: */
+    --lm-light-azure: #F5F9F9;
+    --lm-cyan: #95D2BC;
+    --lm-light-green: #BBCC8F;
+
+    /* Dark Mode: */
+    --dm-black: #3D4243;
+    --dm-dark-cyan: #6B8087;
+    --dm-green: #869D6A;
+
+    /* Secondary Colors: */
+    --sc-blue: #456A92;
+    --sc-azure: #EAF2F3;
+    --sc-beige: #E9E9E3;
+    --sc-gray: #A7A79A;
+    --sc-yellow: #ECD456;
+    --sc-orange: #EA9D42;
+    --sc-red: #DF5739;
+
+    /* Shading: */
+    --shd-header: rgba(105, 127, 134, 0.25);
+    --shd-navbar: rgba(80, 97, 102, 0.35);
+}
+
+@font-face {
+    font-family: iceland;
+    src: url(../fonts/Iceland-Regular.ttf);
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    color: var(--dm-black);
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    max-width: 425px; 
+    max-height: 1852px;
+    background-color: var(--dm-black);
+    color: #ffffff;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: iceland;
+    font-size: 22pt;
+}
+
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    color: #1cd400;
+    text-align: center;
+}
+
+.buttonsLogin{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 30px;
+    border-radius: 50px;
+}
