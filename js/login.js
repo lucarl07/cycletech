@@ -2,7 +2,7 @@ const subLogin = document.getElementById('submitLogin')
 const email = document.getElementById('eMail')
 const regexEmail = /^\S+@\S+\.\S+$/;
 const senha = document.getElementById('senha')
-const regexSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#%¨&*])[0-9a-zA-Z$*&@#%¨&*]{8,}$/;
+const regexSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#%¨&*_])[0-9a-zA-Z$*&@#%¨&*_]{8,}$/;
 const nome = document.getElementById('nome')
 
 const nameUncorrect = document.getElementById('incorrect-name')
