@@ -1,4 +1,3 @@
-const subLogin = document.getElementById('submitLogin')
 const email = document.getElementById('eMail')
 const regexEmail = /^\S+@\S+\.\S+$/;
 const senha = document.getElementById('senha')
@@ -37,7 +36,7 @@ function validaNome(nome){
     }
 }
 
-subLogin.addEventListener('click', function(){
+subRegister.addEventListener('click', function(){
         if(validaEmail(email, regexEmail) == false){
             uncorrect.innerHTML = 'Invalido<br>Seu email deve ser neste modelo: meu@email.com'
             validarEmail = false
@@ -56,7 +55,15 @@ subLogin.addEventListener('click', function(){
             validarSenha = true
         }
 
-        if(validarSenha == true && validarEmail == true){
+        if(validaNome(nome) == false){
+            nameUncorrect.innerHTML = 'Invalido. Seu nome não pode estar vazio!'
+        }else{
+            nameUncorrect.innerText = ''
+            console.log('passou do nome')
+            validarNome = true
+        }
+
+        if(validarSenha == true && validarEmail == true && validarNome == true){
             window.location.href = 'https://lucarl07.github.io/cycletech/pages/inicio.html'
         }
 })
