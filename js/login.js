@@ -64,7 +64,7 @@ subLogin.addEventListener('click', function(){
         }
 
         if(validarSenha == true && validarEmail == true && validarNome == true){
-            window.location.href = './inicio.html'
+            window.location.href = '../pages/inicio.html'
         }
 })
 
