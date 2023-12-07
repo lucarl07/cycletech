@@ -64,7 +64,7 @@ subLogin.addEventListener('click', function(){
         }
 
         if(validarSenha == true && validarEmail == true && validarNome == true){
-            window.location.href = '../pages/inicio.html'
+            window.location.href = 'https://lucarl07.github.io/cycletech/pages/inicio.html'
         }
 })
 
