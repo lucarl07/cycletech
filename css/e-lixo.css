@@ -45,7 +45,7 @@ body {
     display: none;
     position: absolute;
     width: 65vw;
-    height: 100vh;
+    height: 110vh;
     background-color: var(--lm-light-green);
     box-shadow: 0px 5px 25px 5px var(--shd-navbar);
 }
@@ -95,7 +95,7 @@ body {
 .filter {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color: rgba(50, 53, 54, 0.3);
     transition: 0.25s linear;
 }
