@@ -4,17 +4,17 @@ body {
     padding: 0;
     max-width: 425px;
     max-height: 971px;
-    color: var(--dm-black);
+    color: var(--lm-light-azure);
     font-family: 'Inter', sans-serif;
 }
 :root {
     /* Light Mode: */
     --lm-light-azure: #F5F9F9;
     --lm-cyan: #99d4be;
-    --lm-light-green: #BBCC8F;
+    --lm-light-green: #9ead75;
 
     /* Dark Mode: */
-    --dm-black: #3D4243;
+    --dm-black: #343838;
     --dm-dark-cyan: #6B8087;
     --dm-green: #869D6A;
 
@@ -109,7 +109,7 @@ body {
     height: 926px;
     max-width: 425px; 
     max-height: 1852px;
-    background-color: var(--lm-light-azure);
+    background-color: var(--dm-black);
 }
 .button:hover {
     cursor: pointer;
@@ -124,7 +124,7 @@ body {
     padding: 0 30px;
     justify-content: space-between;
     height: 119px;
-    background-color: var(--sc-azure);
+    background-color: var(--lm-light-green);
     box-shadow: 0px 5px 25px 5px var(--shd-header);
 }
 .main .header button {
@@ -163,12 +163,12 @@ body {
     text-align: center;
 }
 .alert .title {
-    color: var(--dm-black);
+    color: var(--lm-light-azure);
     margin-top: 24px;
     margin-bottom: 12px;
 }
 .alert .enhance {
-    color: var(--sc-red);
+    color: var(--sc-orange);
 }
 .alert .paragraph {
     margin: 0 auto 16px;
@@ -180,13 +180,13 @@ body {
     height: 42px;
     border-radius: 9px;
     border: none;
-    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
+    background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
     color: white;
     font-weight: 500;
     font-size: 18px;
 }
 .alert .button:active {
-    background: var(--dm-green);
+    background: var(--lm-light-green);
     box-shadow: inset 0px 0px 2px var(--dm-black);
 }
 
@@ -211,6 +211,7 @@ body {
     border-radius: 25px;
 }
 .pop-up .text {
+    color: var(--dm-black);
     text-align: center;
 }
 .pop-up .flex-items {

@@ -13,14 +13,13 @@ const btnOpenSidebar = document.querySelector('#btnOpenSidebar'),
 btnCloseSidebar = document.querySelector('#btnCloseSidebar');
 
 // Ao clicar em #btnOpenSidebar:
-btnOpenSidebar.addEventListener('touchend', function() {
+btnOpenSidebar.addEventListener('click', function() {
     sidebar.style.display = 'initial'
-    sidebar.style.position = 'fixed'
     darkFilter1.style.display = 'initial'
 })
 
 // Ao clicar em #btnCloseSidebar:
-btnCloseSidebar.addEventListener('touchend', function() {
+btnCloseSidebar.addEventListener('click', function() {
     sidebar.style.display = 'none'
     darkFilter1.style.display = 'none'
 })
@@ -31,11 +30,11 @@ const btnOpenCamera = document.querySelector('#btnOpenCamera'),
 btnExitCamera = document.querySelector('#btnExitCamera');
 
 // Ao clicar em um botão .pop-up.flex-items.button:
-btnOpenCamera.addEventListener('touchend', function() {
+btnOpenCamera.addEventListener('click', function() {
     readQrCode.style.display = 'flex'
     darkFilter2.style.display = 'initial'
 })
-btnExitCamera.addEventListener('touchend', function() {
+btnExitCamera.addEventListener('click', function() {
     readQrCode.style.display = 'none'
     darkFilter2.style.display = 'none'
 })

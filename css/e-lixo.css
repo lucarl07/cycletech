@@ -4,17 +4,17 @@ body {
     padding: 0;
     max-width: 425px;
     max-height: 971px;
-    color: var(--dm-black);
+    color: var(--lm-light-azure);
     font-family: 'Inter', sans-serif;
 }
 :root {
     /* Light Mode: */
     --lm-light-azure: #F5F9F9;
     --lm-cyan: #99d4be;
-    --lm-light-green: #BBCC8F;
+    --lm-light-green: #a4b96d;
 
     /* Dark Mode: */
-    --dm-black: #3D4243;
+    --dm-black: #343838;
     --dm-dark-cyan: #6B8087;
     --dm-green: #869D6A;
 
@@ -51,7 +51,7 @@ body {
 }
 .sidebar .header h1 {
     margin-left: 8px;
-    color: white;
+    color: var(--lm-light-azure);
     text-transform: uppercase;
     font-family: 'Aclonica', sans-serif;
     font-weight: 900;
@@ -65,8 +65,8 @@ body {
 }
 .sidebar .line {
     margin: 0;
-    color: white;
-    border: 1px solid white;
+    color: var(--lm-light-azure);
+    border: 1px solid var(--lm-light-azure);
 }
 .navigation {
     display: flex;
@@ -77,7 +77,7 @@ body {
 }
 .navigation a {
     padding: 20px;
-    color: white;
+    color: var(--lm-light-azure);
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
@@ -109,7 +109,7 @@ body {
     height: 971px;
     max-width: 425px; 
     max-height: 1852px;
-    background-color: var(--lm-light-azure);
+    background-color: var(--dm-black);
 }
 .button:hover {
     cursor: pointer;
@@ -127,7 +127,7 @@ body {
     padding: 0 30px;
     justify-content: space-between;
     height: 119px;
-    background-color: var(--sc-azure);
+    background-color: var(--lm-light-green);
     box-shadow: 0px 5px 25px 5px var(--shd-header);
 }
 .main .header button {
@@ -177,8 +177,8 @@ body {
     height: 50px;
     border-radius: 9px;
     border: none;
-    background-image: linear-gradient(180deg, var(--lm-light-green), var(--dm-green));
-    color: white;
+    background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
+    color: var(--lm-light-azure);
     font-weight: 500;
     font-size: 18px;
 }
@@ -192,57 +192,6 @@ body {
     margin-left: 15px;
     color: var(--sc-gray);
 }
-
-/* (QR code) pop-up card: */ 
-/* .pop-up {
-    z-index: 3;
-    display: none;
-    flex-direction: column;
-    position: relative;
-    margin: -500px auto;
-    padding: 20px;
-    width: 285px;
-    height: 425px;
-    background-color: var(--lm-light-azure);
-    box-shadow: 0px 5px 25px 5px var(--shd-navbar);
-    border-radius: 28px;
-}
-.pop-up img {
-    width: 285px;
-    height: 305px;
-    border: 1px solid var(--sc-azure);
-    border-radius: 25px;
-}
-.pop-up .text {
-    text-align: center;
-}
-.pop-up .flex-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.pop-up .button {
-    width: 140px;
-    height: 45px;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-#btnChooseFile {
-    background-image: linear-gradient(180deg, var(--lm-cyan), var(--dm-dark-cyan));
-}
-#btnChooseFile:active {
-    background: var(--dm-dark-cyan);
-}
-
-#btnExitCamera {
-    background-image: linear-gradient(180deg, var(--sc-red), var(--sc-copper));
-}
-#btnExitCamera:active {
-    background: var(--sc-copper);
-} */
 
 /* Font weights: */
 .semibold {
