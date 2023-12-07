@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 780px;
     max-width: 768px; 
     max-height: 1852px;
     background-color: var(--dm-black);
@@ -69,7 +69,6 @@ body {
 }
 
 .buttonsLogin{
-    margin-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
