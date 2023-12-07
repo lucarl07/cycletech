@@ -1,7 +1,9 @@
-# CycleTech: Referências de Design
+# <p align="center"> <img width="48" height="48" src="./images/green-logo.png" class="title-img"> CycleTech: Referências de Design </p> 
 
 ## Introdução - O que é o projeto?
-A CycleTech é uma aplicação em fase de desenvolvimento com o objetivo de mitigar os impactos dos resíduos de equipamento eletroeletrônico (REEE ou E-Lixo) no meio ambiente, através de um sistema de "resgate e descarte" do E-Lixo, acumulando pontos que poderão ser transformados em outros sistemas de crédito (ex.: *cashback*, pontos de clubes parceiros, milhas, etc.). 
+A CycleTech é uma aplicação em fase de desenvolvimento com o objetivo de mitigar os impactos dos resíduos de equipamento eletroeletrônico (REEE ou E-Lixo) no meio ambiente, através de um sistema de "descarte e resgate" do E-Lixo, acumulando pontos que poderão ser transformados em outros sistemas de crédito (ex.: *cashback*, pontos de clubes parceiros, milhas, etc.). 
+
+Esse projeto faz parte do curso técnico de Informática para a Web de uma unidade SENAI-AL. Ele está sendo desenvolvido como projeto integrador do segundo bimestre do ano letivo, para a unidade de Codificação para Front-End. Na seção [Demanda da Indústria](#demanda-da-indústria), colocamos o link da demanda original na plataforma GP Inovação. Por enquanto, a aplicação é destinada <ins>somente para dispositivos móveis</ins>, então recomenda-se visualizá-la em um celular ou tablet.
 
 ## Conhecendo a fundo nossa proposta
 
@@ -16,7 +18,7 @@ No futuro, com a base da aplicação já estabelecida, é do nosso interesse ins
 
 Entretanto, ao inserir informações com erros crassos  e não realizar nenhum tipo de comunicação com o transportador, o usuário está sujeito a uma **taxa adicional no transporte** e um alerta ao acessar novamente o app. Além disso, falhas que podem interferir no transporte dos demais resíduos podem acarretar em advertências no aplicativo, avisando-o do risco de perder sua conta, ou até a suspensão imediata da mesma.
 
-## Demanda da indústria
+## Demanda da Indústria
 O projeto está sendo desenvolvido para a demanda da empresa **EDMS - SOLUÇÕES EM SOFTWARE PARA NEGÓCIOS**, que atua na área de Tecnologia da Informação. Para visualizar a demanda em sua plataforma original, em que o texto a seguir também se encontra, [clique aqui](https://plataforma.gpinovacao.senai.br/plataforma/demandas-da-industria/interna/9097).
 
 ### Descrição Resumida:
