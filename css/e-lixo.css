@@ -184,6 +184,9 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+.article .button:active {
+    background: var(--dm-dark-cyan);
+}
 .article .flex-items {
     display: flex;
     flex-direction: row;

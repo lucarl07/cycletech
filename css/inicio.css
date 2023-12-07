@@ -188,7 +188,7 @@ body {
     font-size: 18px;
 }
 .alert .button:active {
-    background: var(--lm-light-green);
+    background: var(--dm-dark-cyan);
     box-shadow: inset 0px 0px 2px var(--dm-black);
 }
 
