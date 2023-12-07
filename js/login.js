@@ -56,14 +56,6 @@ subLogin.addEventListener('click', function(){
             validarSenha = true
         }
 
-        if(validaNome(nome) == false){
-            nameUncorrect.innerHTML = 'Invalido. Seu nome não pode estar vazio!'
-        }else{
-            nameUncorrect.innerText = ''
-            console.log('passou do nome')
-            validarNome = true
-        }
-
         if(validarSenha == true && validarEmail == true){
             window.location.href = 'https://lucarl07.github.io/cycletech/pages/inicio.html'
         }
