@@ -16,25 +16,40 @@
     <main class="main">
         <div class="login">
             <div class="email-login" id="email-login">
-                <label for="email">Email:</label>
-                <input type="email" name="e-Mail" id="eMail" class="inputLog">
+                <div class="input">
+                    <label for="email">Email:</label>
+                    <input type="email" name="e-Mail" id="eMail" class="inputLog">
+                </div>
                 <div class="uncorrect" id="incorrect">
                     
                 </div>
             </div>
             <div class="senha-login" id="senha-login">
-                <label for="Senha">Senha:</label>
-                <input type="password" name="Senha" id="senha" class="inputLog">
-                <div class="uncorrect" id="incorrectSenha">
+                <div class="senha">
+                    <div class="input">
+                        <label for="Senha">Senha:</label>
+                        <input type="password" name="Senha" id="senha" class="inputLog">
+                    </div>
+                    <div class="uncorrect" id="incorrectSenha">
+                    </div>
                 </div>
 
-                <input type="checkbox" name="mostraSenha" id="showPassword" onchange="showPass()" class="mostrarSenha">
-                <label for="mostraSenha">Mostrar Senha</label>
+                <div class="showSenha">
+                    <input type="checkbox" name="mostraSenha" id="showPassword" onchange="showPass()" class="mostrarSenha">
+                    <label for="mostraSenha">Mostrar Senha</label>
+                </div>
             </div>
 
-            <button type="submit" id="submitLogin" class="login-Send">
-                Enviar
-            </button>
+            <div class="login-Send">
+                <button type="submit" id="submitLogin">
+                    Enviar
+                </button>
+                
+                <div class="back">
+                    <a href="../index.html">Voltar</a>
+                </div>
+            </div>
+            
         </div>
     </main>
 
