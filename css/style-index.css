@@ -30,7 +30,7 @@
 
 body { 
     background-color: var(--dm-black);
-    margin: 0;
+    margin: 0px;
     padding: 0;
     color: var(--dm-black);
     font-family: 'Inter', sans-serif;
