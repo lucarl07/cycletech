@@ -1,11 +1,12 @@
 /* App properties and variables: */
 html {
     max-width: 810px;
-    max-height: 1200px;
+    max-height: 1080px;
 }
 body { 
     margin: 0;
     padding: 0;
+    background-color: var(--dm-black);
     color: var(--lm-light-azure);
     font-family: 'Inter', sans-serif;
 }
@@ -45,7 +46,7 @@ body {
     display: none;
     position: absolute;
     width: 65vw;
-    height: 110vh;
+    height: 100vh;
     background-color: var(--lm-light-green);
     box-shadow: 0px 5px 25px 5px var(--shd-navbar);
 }
@@ -93,9 +94,10 @@ body {
 
 /* Dark filter (for when the focus is on something else): */
 .filter {
+    display: none;
     position: absolute;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     background-color: rgba(50, 53, 54, 0.3);
     transition: 0.25s linear;
 }
@@ -111,10 +113,9 @@ body {
 /* Main content: */
 .main {
     z-index: 1;
-    height: 110vh;
+    height: 100vh;
     max-width: 810px; 
     max-height: 1852px;
-    background-color: var(--dm-black);
 }
 .button:hover {
     cursor: pointer;

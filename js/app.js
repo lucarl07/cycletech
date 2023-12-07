@@ -15,7 +15,9 @@ btnCloseSidebar = document.querySelector('#btnCloseSidebar');
 // Ao clicar em #btnOpenSidebar:
 btnOpenSidebar.addEventListener('click', function() {
     sidebar.style.display = 'initial'
+    sidebar.style.position = 'fixed'
     darkFilter1.style.display = 'initial'
+    darkFilter1.style.position = 'fixed'
 })
 
 // Ao clicar em #btnCloseSidebar:

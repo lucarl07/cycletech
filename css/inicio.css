@@ -6,6 +6,7 @@ html {
 body { 
     margin: 0;
     padding: 0;
+    background-color: var(--dm-black);
     color: var(--lm-light-azure);
     font-family: 'Inter', sans-serif;
 }
@@ -93,7 +94,8 @@ body {
 
 /* Dark filter (for when the focus is on something else): */
 .filter {
-    position: absolute;
+    display: none;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-color: rgba(50, 53, 54, 0.3);
@@ -114,7 +116,6 @@ body {
     height: 100vh;
     max-width: 810px; 
     max-height: 1852px;
-    background-color: var(--dm-black);
 }
 .button:hover {
     cursor: pointer;
