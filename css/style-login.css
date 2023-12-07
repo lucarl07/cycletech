@@ -5,6 +5,7 @@
 }
 
 body { 
+    background-color: var(--dm-black);
     margin: 0;
     padding: 0;
     color: var(--dm-black);
@@ -36,9 +37,7 @@ body {
 }
 
 .main {
-    height: 100vh;
-    max-width: 768px; 
-    background-color: var(--dm-black);
+    max-width: 768px;
     color: #ffffff;
 }
 
