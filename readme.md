@@ -18,11 +18,6 @@ Porém, descarte para nós tem um significado um pouco diferente. Ao entrar no a
 ### Mas o que é "resgatar"?
 Nos pontos de descarte, haverá um monitor touch-screen acima. Após jogar o lixo, o monitor será ativado e o será disponibilizado um QR code, para o usuário escanear e obter a pontuação de acordo com o tipo e a quantidade de eletroeletrônicos descartados.
 
-### E se o usuário omitir/errar o tipo e/ou quantidade do resíduo?
-No futuro, com a base da aplicação já estabelecida, é do nosso interesse inserir um sistema de chat entre o transportador e o solicitante durante uma solicitação. Na situação do título, é responsabilidade do último e somente do último relatar, por este meio, quaisquer incoerências na descrição do resíduo com seu estado real.
-
-Entretanto, ao inserir informações com erros crassos  e não realizar nenhum tipo de comunicação com o transportador, o usuário está sujeito a uma **taxa adicional no transporte** e um alerta ao acessar novamente o app. Além disso, falhas que podem interferir no transporte dos demais resíduos podem acarretar em advertências no aplicativo, avisando-o do risco de perder sua conta, ou até a suspensão imediata da mesma.
-
 ## Demanda da Indústria
 O projeto está sendo desenvolvido para a demanda da empresa **EDMS - SOLUÇÕES EM SOFTWARE PARA NEGÓCIOS**, que atua na área de Tecnologia da Informação. Para visualizar a demanda em sua plataforma original, em que o texto a seguir também se encontra, [clique aqui](https://plataforma.gpinovacao.senai.br/plataforma/demandas-da-industria/interna/9097).
 
